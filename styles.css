@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  text-align: center;
+}
+nav {
+  text-align: center;
+  padding: 30px 10px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+}
+nav div {
+  padding: 15px;
+  border-radius: 1rem;
+  background-color: #909090;
+  margin: 0 auto;
+}
+nav div a {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s ease;
+}
+nav div a:hover {
+  color: #333;
+}
+.header {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 60px;
+}
+.header h1 {
+  font-size: 9rem;
+  color: #333;
+}
+.header p {
+  font-size: 1.5rem;
+  color: #333;
+}
+.announcement {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 1.7rem;
+  margin: 50px auto;
+  height: 220px;
+  width: 90%;
+  background-image: url("./Hair-Day-logos/barber\ landscape.png");
+  background-size: cover;
+}
+.announcement * {
+  color: #fff;
+}
+.announcement h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 10px;
+}
+.announcement + h2 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 3rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px auto;
+  padding: 20px;
+  width: 90%;
+}
+.product {
+  padding: 20px;
+  width: 30%;
+  border-radius: 1.6rem;
+  background-color: #f4f4f4;
+}
+.product h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 10px 60px 10px;
+}
+.product p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px;
+}
+.product img {
+  margin: 10px 10px 60px 10px;
+  object-fit: cover;
+  border-radius: 50rem;
+}
+.product button {
+  margin-top: 35px;
+  padding: 10px;
+  border: none;
+  border-radius: 1rem;
+  background-color: #909090;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.16s ease;
+}
+.product button:hover {
+  color: #333;
+  background-color: #f4f4f4;
+}
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+}
